@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+/* ---------------------------------------------Colours */
+
+.bg-color-number-email {
+    background-color: #303036;
+}
+
+/* ---------------------------------------------Heading */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.LOGO {
+    background: url("../images/RYNO.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.number {
+    font-family: "Recursive", sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.email {
+    font-family: "Recursive", sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+}
