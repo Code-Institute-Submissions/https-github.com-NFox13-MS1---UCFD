@@ -1,43 +1,174 @@
-@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
 
 /* ---------------------------------------------Colours */
 
 .bg-color-number-email {
-    background-color: #303036;
+  background-color: #303036;
+}
+
+.ui-menu-color-home {
+  background-color: #d81159;
+}
+
+.ui-menu-color-aboutus {
+  background-color: #b8bdb5;
+}
+
+.ui-menu-color-services {
+  background-color: #f08700;
+}
+
+.ui-menu-color-contact {
+  background-color: #4d6cfa;
+}
+
+/* ---------------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Recursive", sans-serif;
+    color: #fff
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /* ---------------------------------------------Heading */
 
 header {
-    margin: 0;
+  margin: 0;
 }
 
 .heading {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
-.LOGO {
-    background: url("../images/RYNO.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+.logo {
+  background: url("../images/RYNO.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 210px;
+  padding: 15px;
 }
 
 .number {
-    font-family: "Recursive", sans-serif;
-    font-size: 50px;
-    margin-top: 50px;
-    color: #fff;
+  font-family: "Recursive", sans-serif;
+  font-size: 30px;
+  margin-top: 60px;
+  color: #fff;
 }
 
 .email {
-    font-family: "Recursive", sans-serif;
-    font-size: 50px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+  font-family: "Recursive", sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+/* ---------------------------------------------NAVBAR */
+
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+.menucontainer {
+  font-size: 0;
+}
+
+#navbar li {
+  font-size: 16px;
+  padding: 0;
+}
+
+.menuitem {
+  height: 70px;
+  text-align: center;
+  padding: 0;
+}
+
+.menuitem a {
+  width: 100%;
+  text-decoration: none;
+  height: 70px;
+  color: #303036;
+}
+
+.menuitem a i {
+  padding-top: 10px;
+  display: block;
+  color: #303036;
+  font-size: 25px;
+}
+
+.menuitem span {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: "Recursive", sans-serif;
+}
+
+/* ---------------------------------------------Hover.css */
+
+.hvr-shutter-out-horizontal:before {
+    background-color: rgb(0, 0, 0, 0.2);
+    height: 70px;
+}
+
+/* ---------------------------------------------Hero image */
+
+/*transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out; */
+
+/* ---------------------------------------------Location map */
+
+/* ---------------------------------------------Contact us button*/
+
+/* ---------------------------------------------Footer */
+
+footer {
+    background-color: #303036;
     color: #fff;
+    min-height: 70px;
+}
+
+.social-links {
+    padding-bottom: 10px;
+}
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 13px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 5px;
+    text-align: center;
+    color: #fff;
+    background: #303036;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #b8bdb5;
 }
