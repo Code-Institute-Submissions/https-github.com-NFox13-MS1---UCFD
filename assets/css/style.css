@@ -61,7 +61,7 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   height: 210px;
-  padding: 15px;
+  padding-left: 20px;
 }
 
 .number {
@@ -124,6 +124,10 @@ header {
   font-family: "Recursive", sans-serif;
 }
 
+.col {
+    padding: 0;
+}
+
 /* ---------------------------------------------Hover.css */
 
 .hvr-shutter-out-horizontal:before {
@@ -131,7 +135,17 @@ header {
     height: 70px;
 }
 
+.hvr-shutter-out-horizontal {
+    background: transparent;
+}
+
 /* ---------------------------------------------Hero image */
+
+#hero-image {
+    height: 400px;
+    width: 100%;
+    background: url("../images/steel.jpg") no-repeat center center
+}
 
 /*transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
