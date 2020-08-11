@@ -51,8 +51,17 @@ header {
   margin: 0;
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col-md-4 {
+    padding: 0;
+}
+
 .heading {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .logo {
@@ -60,8 +69,9 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 210px;
-  padding-left: 20px;
+  height: 130px;
+  padding: 0;
+  margin-top: 45px;
 }
 
 .number {
@@ -86,10 +96,10 @@ header {
 
 .menucontainer {
   font-size: 0;
+  margin-bottom: 0;
 }
 
 #navbar li {
-  font-size: 16px;
   padding: 0;
 }
 
@@ -141,19 +151,82 @@ header {
 
 /* ---------------------------------------------Hero image */
 
-#hero-image {
-    height: 400px;
-    width: 100%;
-    background: url("../images/steel.jpg") no-repeat center center
+.cover {
+    object-fit: cover;
 }
 
-/*transition: all .5s ease-in-out;
+/*#hero-image {
+    transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out; */
+    -webkit-transition: all .5s ease-in-out;
+    }*/
+
+#cover-text {
+    color: #fff;
+    font-size: 150%;
+    font-family: "Recursive", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 30px;
+    bottom: 40px;
+    left: 0;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.4)
+}
+
+#hero-block {
+    position: relative;
+}
+
+/* ---------------------------------------------Company description */
+
+#description {
+    background-color: #303036;
+    color: #fff;
+    padding: 20px;
+}
 
 /* ---------------------------------------------Location map */
 
+.map-bg {
+    background-color: #303036;
+    height: 450px;
+    width: 100%;
+}
+
+#map {
+    width: 80%; 
+    height: 80%;
+    margin: 30px;
+    margin-left: 50px;
+}
+
+/* ---------------------------------------------Opening hours*/
+
+.hours {
+    background-color: #303036;
+    padding: 30px;
+    height: 450px;
+    width: 100%;
+    color: #fff;
+}  
+
+.table {
+    color: #fff;
+}
+
 /* ---------------------------------------------Contact us button*/
+
+.button {
+    background-color: #303036;
+    padding: 20px;
+    height: 450px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
 
 /* ---------------------------------------------Footer */
 
