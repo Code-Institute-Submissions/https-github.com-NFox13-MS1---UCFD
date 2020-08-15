@@ -61,31 +61,34 @@ header {
 }
 
 .heading {
-  margin-left: 100px;
+  margin: auto;
 }
 
 .logo {
   background: url("../images/RYNO.png");
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
   height: 130px;
+  background-size: contain;
   padding: 0;
-  margin-top: 45px;
+  margin: auto auto;
 }
 
 .number {
   font-family: "Recursive", sans-serif;
-  font-size: 30px;
+  font-size: 150%;
   margin-top: 60px;
+  margin-left: 20px;
   color: #fff;
 }
 
 .email {
   font-family: "Recursive", sans-serif;
-  font-size: 30px;
+  font-size: 150%;
   margin-top: 30px;
   margin-bottom: 60px;
+  margin-left: 20px;
   color: #fff;
 }
 /* ---------------------------------------------NAVBAR */
@@ -167,7 +170,7 @@ header {
     font-family: "Recursive", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 400px;
+    width: 310px;
     padding-top: 40px;
     padding-left: 30px;
     bottom: 40px;
@@ -190,6 +193,10 @@ header {
 
 /* ---------------------------------------------Location map */
 
+.row {
+    margin: 0;
+}
+
 .map-bg {
     background-color: #303036;
     height: 450px;
@@ -197,17 +204,16 @@ header {
 }
 
 #map {
-    width: 80%; 
-    height: 80%;
-    margin: 30px;
-    margin-left: 50px;
+    height: 450px;
+    width: 100%;
+    padding: 30px;
+    border: none;
 }
 
 /* ---------------------------------------------Opening hours*/
 
 .hours {
     background-color: #303036;
-    padding: 30px;
     height: 450px;
     width: 100%;
     color: #fff;
@@ -215,6 +221,10 @@ header {
 
 .table {
     color: #fff;
+    height: 75%;
+    width: 90%;
+    margin: 20px;
+    position: auto;
 }
 
 /* ---------------------------------------------Contact us button*/
