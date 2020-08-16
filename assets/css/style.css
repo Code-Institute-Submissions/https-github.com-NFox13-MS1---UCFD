@@ -83,6 +83,10 @@ header {
   color: #fff;
 }
 
+.number-link {
+    background-color: #fff;
+}
+
 .email {
   font-family: "Recursive", sans-serif;
   font-size: 150%;
