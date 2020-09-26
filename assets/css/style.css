@@ -273,3 +273,14 @@ footer {
 .social-links li a i:hover {
     background: #b8bdb5;
 }
+
+
+/* ---------------------------------------------Contact page */
+
+.button-customise {
+    background-color: #303036;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
