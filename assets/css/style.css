@@ -71,7 +71,6 @@ header {
   background-position-y: center;
   height: 130px;
   background-size: contain;
-  padding: 0;
   margin: auto auto;
 }
 
@@ -287,8 +286,21 @@ footer {
 
 /* ---------------------------------------------About us page */
 
-.about-us-custom {
+.introduction {
     margin-top: 20px;
+}
+
+.mgmt-intro {
+    text-align: center;
+}
+
+.personnel {
+    margin: 20px;
+}
+
+.card-custom {
+    padding: 20px;
+    margin: 10px;
 }
 
 /* ---------------------------------------------Services page */
@@ -300,7 +312,6 @@ footer {
     color: #fff;
     font-family: "Recursive", sans-serif;
     text-align: center; 
-
 }
 
 .first-featurette {
