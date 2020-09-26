@@ -285,8 +285,13 @@ footer {
     background: #b8bdb5;
 }
 
+/* ---------------------------------------------About us page */
 
-/* ---------------------------------------------Services */
+.about-us-custom {
+    margin-top: 20px;
+}
+
+/* ---------------------------------------------Services page */
 
 .featurette-custom {
    background-color: #303036;
