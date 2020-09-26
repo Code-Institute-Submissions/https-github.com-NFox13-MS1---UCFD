@@ -286,6 +286,33 @@ footer {
 }
 
 
+/* ---------------------------------------------Services */
+
+.featurette-custom {
+   background-color: #303036;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    font-family: "Recursive", sans-serif;
+    text-align: center; 
+
+}
+
+.first-featurette {
+    margin-top: 20px;
+}
+
+.architectural {
+    background: url("../images/metalwork.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 400px;
+  background-size: contain;
+  padding: 0;
+  margin: auto auto;
+}
+
 /* ---------------------------------------------Contact page */
 
 .button-customise {
@@ -293,5 +320,6 @@ footer {
     padding: 20px;
     width: 100%;
     color: #fff;
+    font-family: "Recursive", sans-serif;
     text-align: center;
 }
