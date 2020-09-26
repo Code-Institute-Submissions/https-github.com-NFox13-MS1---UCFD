@@ -75,6 +75,17 @@ header {
   margin: auto auto;
 }
 
+.ce-logo {
+  background: url("../images/CE logo.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 130px;
+  background-size: contain;
+  padding: 0;
+  margin: auto auto;
+}
+
 .number {
   font-family: "Recursive", sans-serif;
   font-size: 150%;
