@@ -332,7 +332,7 @@ footer {
 .card-custom {
     color: #303036;
     padding: 20px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .card-text {
@@ -393,7 +393,7 @@ footer {
 
 .button-customise {
     background-color: #303036;
-    padding: 20px;
+    padding: 40px;
     width: 100%;
     color: #fff;
     font-family: "Recursive", sans-serif;
