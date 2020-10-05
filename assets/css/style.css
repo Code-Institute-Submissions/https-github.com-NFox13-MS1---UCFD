@@ -88,7 +88,7 @@ header {
 .number {
   font-family: "Recursive", sans-serif;
   font-size: 150%;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-left: 20px;
   color: #fff;
 }
@@ -100,11 +100,28 @@ header {
 .email {
   font-family: "Recursive", sans-serif;
   font-size: 150%;
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.modal-custom {
+    font-family: "Recursive", sans-serif;
+  font-size: 150%;
+  margin-top: 20px;
   margin-left: 20px;
   color: #fff;
 }
+
+.button-custom {
+     font-family: "Recursive", sans-serif;
+  font-size: 150%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #fff;
+}
+
 /* ---------------------------------------------NAVBAR */
 
 .list-inline-item:not(:last-child) {
@@ -287,10 +304,24 @@ footer {
 /* ---------------------------------------------About us page */
 
 .introduction {
-    margin-top: 20px;
+    padding: 20px;
+    background-color: #303036;
+    color: #fff;
+    font-family: "Recursive", sans-serif;
+    text-align: center;
 }
 
 .mgmt-intro {
+    background-color: #303036;
+    color: #fff;
+    font-family: "Recursive", sans-serif;
+    text-align: center;
+}
+
+.about-us-custom {
+    background-color: #303036;
+    color: #fff;
+    font-family: "Recursive", sans-serif;
     text-align: center;
 }
 
@@ -299,9 +330,16 @@ footer {
 }
 
 .card-custom {
+    color: #303036;
     padding: 20px;
     margin: 10px;
 }
+
+.card-text {
+    padding: 10px;
+}
+
+
 
 /* ---------------------------------------------Services page */
 

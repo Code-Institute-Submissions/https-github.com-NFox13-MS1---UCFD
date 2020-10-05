@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
@@ -23,7 +23,8 @@
     <header>
       <div class="row">
         <a href="index.html" class="col-md-4 logo" alt="ryno logo"> </a>
-        <a href="index.html" class="col-md-4 ce-logo" alt="ce standard logo"> </a>
+        <a href="index.html" class="col-md-4 ce-logo" alt="ce standard logo">
+        </a>
         <div class="col-md-4">
           <div class="row bg-color-number-email">
             <div class="col heading">
@@ -35,6 +36,41 @@
                 <i class="fas fa-envelope-square" aria-hidden="true"></i> :
                 <a href="mailto:info@ryno.ie">info@ryno.ie</a>
               </h2>
+              <h2 class="modal-custom">Start a career with Ryno!</h2>
+              <button
+                type="button"
+                class="btn btn-info btn-lg button-custom"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
+                Click for more information
+              </button>
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                      <h4 class="modal-title">
+                        Ryno steel fabrication careers
+                      </h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Contact us for information on the positions that are currently available</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-default"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -42,29 +78,37 @@
       <div class="row">
         <div class="col">
           <ul id="navbar" class="list-inline menucontainer">
-            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-                <a href="../index.html" class="hvr-shutter-out-horizontal">
-                    <i class="fas fa-home" aria-hidden="true"></i>
-                    <span>Home</span>
-                </a>
+            <li
+              class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem"
+            >
+              <a href="../index.html" class="hvr-shutter-out-horizontal">
+                <i class="fas fa-home" aria-hidden="true"></i>
+                <span>Home</span>
+              </a>
             </li>
-            <li class="col-6 col-sm-3 ui-menu-color-aboutus list-inline-item menuitem">
-                <a href="../about-us.html" class="hvr-shutter-out-horizontal">
-                    <i class="fas fa-address-card" aria-hidden="true"></i>
-                    <span>About us</span>
-                </a>
+            <li
+              class="col-6 col-sm-3 ui-menu-color-aboutus list-inline-item menuitem"
+            >
+              <a href="../about-us.html" class="hvr-shutter-out-horizontal">
+                <i class="fas fa-address-card" aria-hidden="true"></i>
+                <span>About us</span>
+              </a>
             </li>
-            <li class="col-6 col-sm-3 ui-menu-color-services list-inline-item menuitem">
-                <a href="../services.html" class="hvr-shutter-out-horizontal">
-                    <i class="fas fa-toolbox" aria-hidden="true"></i>
-                    <span>Services</span>
-                </a>
+            <li
+              class="col-6 col-sm-3 ui-menu-color-services list-inline-item menuitem"
+            >
+              <a href="../services.html" class="hvr-shutter-out-horizontal">
+                <i class="fas fa-toolbox" aria-hidden="true"></i>
+                <span>Services</span>
+              </a>
             </li>
-            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                <a href="../contact.html" class="hvr-shutter-out-horizontal">
-                    <i class="fas fa-handshake" aria-hidden="true"></i>
-                    <span>Contact</span>
-                </a>
+            <li
+              class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem"
+            >
+              <a href="../contact.html" class="hvr-shutter-out-horizontal">
+                <i class="fas fa-handshake" aria-hidden="true"></i>
+                <span>Contact</span>
+              </a>
             </li>
           </ul>
         </div>
@@ -96,70 +140,107 @@
           <iframe
             id="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.6339121548976!2d-6.262443083978408!3d53.34980918215274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e843ebdec4d%3A0x7f2ea0ee1d1b678a!2sThe%20Spire!5e0!3m2!1sen!2sie!4v1596981921207!5m2!1sen!2sie"
-            aria-hidden="true">
+            aria-hidden="true"
+          >
             <p>Location map</p>
           </iframe>
         </div>
         <div class="col-md-4 hours">
-            <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Day</th>
-                    <th scope="col">Opening hours</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Monday</th>
-                    <td>08.00 - 17.00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Tuesday</th>
-                    <td>08.00 - 17.00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Wednesday</th>
-                    <td>08.00 - 17.00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Thursday</th>
-                    <td>08.00 - 17.00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Friday</th>
-                    <td>08.00 - 16.00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Saturday</th>
-                    <td>08.00 - 13.00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Sunday</th>
-                    <td>Closed</td>
-                  </tr>
-                </tbody>
-              </table>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Opening hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Monday</th>
+                <td>08.00 - 17.00</td>
+              </tr>
+              <tr>
+                <th scope="row">Tuesday</th>
+                <td>08.00 - 17.00</td>
+              </tr>
+              <tr>
+                <th scope="row">Wednesday</th>
+                <td>08.00 - 17.00</td>
+              </tr>
+              <tr>
+                <th scope="row">Thursday</th>
+                <td>08.00 - 17.00</td>
+              </tr>
+              <tr>
+                <th scope="row">Friday</th>
+                <td>08.00 - 16.00</td>
+              </tr>
+              <tr>
+                <th scope="row">Saturday</th>
+                <td>08.00 - 13.00</td>
+              </tr>
+              <tr>
+                <th scope="row">Sunday</th>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="col-md-4 button">
           <div class="button-heading">
-            <h4>Free quotation!</h4> 
-            <hr>
-            <p>Please enter your details below and a member of the Ryno Steel fabrication estimating team will be in contact</p>
-                <form action="https://formdump.codeinstitute.net/" method="POST">
-                    <div class="form-group">
-                        <label for="name" aria-label="name field for user to fill up">Name</label>
-                        <input type="text" class="form-control" placeholder="Insert name here" aria-label="this is the input field for name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email" aria-label="email field for user to fill up">E-mail</label>
-                        <input type="email" class="form-control" placeholder="Insert email here" aria-label="this is the input field for email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="number" aria-label="contact number field for user to fill up">Contact number</label>
-                        <input type="tel" class="form-control" placeholder="Insert contact number here" aria-label="this is the input field for contact number">
-                    </div>
-                    <input type="submit" name="submit" value="Send" aria-label="This is a submit button for contact form">
-                </form>
+            <h4>Free quotation!</h4>
+            <hr />
+            <p>
+              Please enter your details below and a member of the Ryno Steel
+              fabrication estimating team will be in contact
+            </p>
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+              <div class="form-group">
+                <label for="name" aria-label="name field for user to fill up"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Insert name here"
+                  aria-label="this is the input field for name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" aria-label="email field for user to fill up"
+                  >E-mail</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Insert email here"
+                  aria-label="this is the input field for email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label
+                  for="number"
+                  aria-label="contact number field for user to fill up"
+                  >Contact number</label
+                >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="number"
+                  placeholder="Insert contact number here"
+                  aria-label="this is the input field for contact number"
+                />
+              </div>
+              <input
+                type="submit"
+                name="submit"
+                value="Send"
+                aria-label="This is a submit button for contact form"
+              />
+            </form>
           </div>
         </div>
       </div>
@@ -168,10 +249,12 @@
     <footer class="container-fluid">
       <div class="row">
         <div class="col-sm-6">
-            <address>
-                <h5 class="uppercase general-sub">Address</h5>
-                <p class="inline-block">Unit 7 Technology park, Wicklow Road, Dublin, Ireland, D1 IRL123</p>
-            </address>
+          <address>
+            <h5 class="uppercase general-sub">Address</h5>
+            <p class="inline-block">
+              Unit 7 Technology park, Wicklow Road, Dublin, Ireland, D1 IRL123
+            </p>
+          </address>
         </div>
         <div class="col-sm-6">
           <h5 class="uppercase general-sub">Social media</h5>
@@ -218,6 +301,6 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
   </body>
 </html>
