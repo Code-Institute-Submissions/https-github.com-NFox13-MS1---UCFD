@@ -65,7 +65,7 @@ header {
 }
 
 .logo {
-  background: url("../images/RYNO.png");
+  background: url("../images/RYNO.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -387,6 +387,10 @@ footer {
     background-size: contain;
     padding: 0;
     margin: auto auto; 
+}
+
+.inq-btn-custom {
+    padding-bottom: 5px;
 }
 
 /* ---------------------------------------------Contact page */
