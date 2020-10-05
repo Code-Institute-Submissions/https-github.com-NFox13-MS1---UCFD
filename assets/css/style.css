@@ -185,24 +185,15 @@ header {
 
 /* ---------------------------------------------Hero image */
 
-.hero-image {
+#hero-block {
   background: url("../images/welding.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
+  object-fit: contain;
   height: 450px;
   width: 100%;
 }
-
-.cover {
-    object-fit: cover;
-}
-
-/*#hero-image {
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    }*/
 
 #cover-text {
     color: #fff;
