@@ -63,3 +63,25 @@ Construction/Engineering Contractors:
 Website has been tested using [GTmetrix](https://gtmetrix.com/reports/nfox13.github.io/PoOnnUXq) see results below:
 
 ![Website Speed Test Results](assets/images/speed_test.jpg)
+
+When I initially deployed the website, all my navbar links were returning a 404 message. I had used a relative path through the folders as opposed to services.html etc
+
+Some of my images were not displaying when I used the img tag so I changed these to an anchor tag and they worked perfectly
+
+To improve on the results I could work on the scaled images and also the browser caching
+
+# Technologies
+
+- [Bootstrap](https://getbootstrap.com/)
+
+# Media
+
+I have used different resources for images, my logo, colour scheme etc.
+All are listed below:
+
+- [Font Awesome](https://fontawesome.com/) for the icons used on this site
+- [Logo Pony](https://www.logopony.com/) for the logo design
+- [Unsplash](https://unsplash.com/) for all the images
+- [Am I Responsive](http://ami.responsivedesign.is/) for the responsive image in the UX section
+- [Coolers]( https://coolors.co/) for generating my colour scheme
+- [Raptor Engineering solutions]( https://www.raptorengineeringsolutions.com/) for the CE logo
