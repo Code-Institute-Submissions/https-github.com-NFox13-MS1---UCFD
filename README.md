@@ -70,6 +70,8 @@ Some of my images were not displaying when I used the img tag so I changed these
 
 To improve on the results I could work on the scaled images and also the browser caching
 
+HTML and CSS has been tested using W3C validator and Jigsaw validator
+
 # Technologies
 
 - [Bootstrap](https://getbootstrap.com/)
