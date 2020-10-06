@@ -85,3 +85,20 @@ All are listed below:
 - [Am I Responsive](http://ami.responsivedesign.is/) for the responsive image in the UX section
 - [Coolers]( https://coolors.co/) for generating my colour scheme
 - [Raptor Engineering solutions]( https://www.raptorengineeringsolutions.com/) for the CE logo
+
+# Thanks to
+I would like to thank the following for their part in this project
+- Font awesome
+- Bootstrap
+- Coolers
+- Logo pony
+- Unsplash
+- Github
+- Gitpod
+- Code Institute tutorials
+- Fellow students and leads on Slack
+- Code Institute support
+- My project Mentor Felipe Souza Alarcon
+- W3 schools
+
+All of the above had an input or gave inspiration to various elements of this project
