@@ -57,3 +57,9 @@ Construction/Engineering Contractors:
 - As a business owner, I'd like to see what services this company can offer as a sub-contractor
 - As a business owner, I'd like to know if the company can offer site crews/labour
 - As a business owner, I'd like to know who to contact and when I can contact them
+
+# Testing
+
+Website has been tested using [GTmetrix](https://gtmetrix.com/reports/nfox13.github.io/PoOnnUXq) see results below:
+
+![Website Speed Test Results](assets/images/speed_test.jpg)
